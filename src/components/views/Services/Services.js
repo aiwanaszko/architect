@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Row, Col } from 'react-flexbox-grid';
+import './Services.scss';
 
 const Services = () => (
-  <div>
+  <div className='component'>
     <h2>Services view</h2>
     <Row>
       <Col lg={2}>
