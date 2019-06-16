@@ -14,7 +14,6 @@ function App() {
       <MainLayout>
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
-        <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
         <Route path={process.env.PUBLIC_URL + '/services'} component={Services} />
         <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
         <Route path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
