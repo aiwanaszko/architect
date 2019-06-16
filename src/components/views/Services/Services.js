@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Row, Col } from 'react-flexbox-grid';
 import './Services.scss';
 
@@ -7,10 +6,10 @@ const Services = () => (
   <div>
     <div className='services'>
     <Row>
-      <Col lg={2}>
-      Faza 1
+      <Col xs={2}>
+      <h3>Faza 1</h3>
       </Col>
-      <Col lg={10}>
+      <Col xs={10}>
         <h3>Opracowania przedprojektowe</h3>
         <p>Zastępujemy Inwestora w uzyskaniu:</p>
         <ul>
@@ -22,10 +21,10 @@ const Services = () => (
       </Col>
     </Row>
     <Row>
-      <Col lg={2}>
-      Faza 2
+      <Col xs={2}>
+      <h3>Faza 2</h3>
       </Col>
-      <Col lg={10}>
+      <Col xs={10}>
         <h3>Studia, analizy, koncepcje</h3>
         <ul>
           <li>analizy możliwości zagospodarowania terenu </li>
@@ -36,7 +35,7 @@ const Services = () => (
     </Row>
     <Row>
       <Col lg={2}>
-      Faza 3
+      <h3>Faza 3</h3>
       </Col>
       <Col lg={10}>
         <h3>Projekty budowlane</h3>
@@ -50,7 +49,7 @@ const Services = () => (
     </Row>
     <Row>
       <Col lg={2}>
-      Faza 4
+      <h3>Faza 4</h3>
       </Col>
       <Col lg={10}>
         <h3>Projekty podwykonawcze</h3>
@@ -64,7 +63,7 @@ const Services = () => (
     </Row>
     <Row>
       <Col lg={2}>
-      Faza 5
+      <h3>Faza 5</h3>
       </Col>
       <Col lg={10}>
         <h3>Realizacja</h3>
