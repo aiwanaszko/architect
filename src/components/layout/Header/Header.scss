@@ -3,9 +3,21 @@
   font-weight: bold;
   text-decoration: none;
   margin-left: 20px;
+  font-size: 14px;
 }
 
 .link:hover {
   color: #1dd1a1;
   transition: all 1s ease;
+}
+
+.header {
+  text-align: center;
+  background-image: url('https://i.postimg.cc/3xmv9rGN/architect-architecture-black-and-white-1537008.jpg');
+  height: 500px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
 }

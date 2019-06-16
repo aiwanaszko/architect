@@ -4,8 +4,8 @@ import { Row, Col } from 'react-flexbox-grid';
 import './Services.scss';
 
 const Services = () => (
-  <div className='component'>
-    <h2>Services view</h2>
+  <div>
+    <div className='services'>
     <Row>
       <Col lg={2}>
       Faza 1
@@ -73,6 +73,7 @@ const Services = () => (
         </ul>
       </Col>
     </Row>
+    </div>
   </div>
 );
 
