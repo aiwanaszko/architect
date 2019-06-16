@@ -1,0 +1,24 @@
+@import './settings.scss';
+@import "./typography.scss";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #222f3e;
+  font-family: 'Poppins', sans-serif;
+  font-size: ($base-size * 1.1);
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  overflow-y: scroll;
+}
+
+:global(.container) {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
